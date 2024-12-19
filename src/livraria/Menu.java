@@ -2,7 +2,9 @@ package livraria;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
+
 import java.util.Scanner;
+import livraria.model.*;
 
 public class Menu {
 
@@ -12,6 +14,11 @@ public class Menu {
 
 		int opcao;
 
+		Livro livro1 = new Livro(1,"A Máquina de Xadrez","Editora Vida",1,"Denner dos Anjos",1);
+		livro1.visualizar();
+		Revista revista1 = new Revista(2,"Titulo X","Editora Vida",12,2022,50,2);
+		revista1.visualizar();
+		
 		while (true) {
 
 			System.out.println("\n|===============================================|");
@@ -21,7 +28,7 @@ public class Menu {
 			System.out.println("|===============================================|");
 			System.out.println("|						|");
 			System.out.println("|	1 - Registrar Obra			|");
-			System.out.println("|	2 - Listar Obras no Acervo		|");
+			System.out.println("|	2 - Listar Todsa as Obras no Acervo	|");
 			System.out.println("|	3 - Buscar Obra por código		|");
 			System.out.println("|	4 - Atualizar dados da Obra		|");
 			System.out.println("|	5 - Excluir Obra do acervo		|");
