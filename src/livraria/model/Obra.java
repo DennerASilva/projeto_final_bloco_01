@@ -51,7 +51,7 @@ public abstract class Obra {
 		case 2 -> tipo = "Revista";			
 		}
 		
-		System.out.println("\n\nInformações da Obra '" + this.titulo +"'");
+		System.out.println("\n\nInformações da Obra '" + this.titulo +"'\n");
 		System.out.println("Tipo: " + tipo);
 		System.out.println("Editora: " + this.editora);	
 	}

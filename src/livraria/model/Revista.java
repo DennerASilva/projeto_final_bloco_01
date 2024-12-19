@@ -35,6 +35,6 @@ public class Revista extends Obra{
 		
 		super.visualizar();
 		System.out.println("Vol.: " + this.volume + ". Data: "+ mes + "/" + this.ano);
-		System.out.println("Código Interno: " + this.codigo);
+		System.out.println("Código Interno: " + this.codigo+"\n");
 	}
 }

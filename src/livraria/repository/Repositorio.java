@@ -5,10 +5,10 @@ import livraria.model.Obra;
 public interface Repositorio {
 	
 	//CRUD
-	public void procurarPorCodigo(int numero);
+	public void procurarPorCodigo(int codigo);
 	public void listarTodas();
-	public void cadastrar(Obra conta);
-	public void atualizar(Obra conta);
-	public void deletar(int numero);
+	public void registrar(Obra obra);
+	public void atualizar(Obra obra);
+	public void excluir(int codigo);
 
 }

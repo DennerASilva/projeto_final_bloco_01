@@ -47,7 +47,7 @@ public class Livro extends Obra{
 			break;
 		}
 		case 5: {
-			genero = "Autoajuda e Motivacional";
+			genero = "Suspense";
 			break;
 		}
 		case 6: {
@@ -59,7 +59,7 @@ public class Livro extends Obra{
 		super.visualizar();
 		System.out.println("Autor: " + this.autor);
 		System.out.println("Gênero do Livro: " + genero);
-		System.out.println("Código Interno: " + this.codigo);
+		System.out.println("Código Interno: " + this.codigo+"\n");
 	}
 
 }
